@@ -263,7 +263,7 @@ def findHaiku(corpus, docName):
 def runBot():
     corpus = getCorpus('Docs', '.*')
 
-    haiku = findHaiku(corpus, 'comm_manifesto.txt')
+    haiku = findHaiku(corpus, 'terms_and_conditions.txt')
 
     try:
         tweet(haiku)
